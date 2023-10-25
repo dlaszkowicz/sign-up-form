@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  margin: 0px;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  width: 120%;
+  background-color: #f2f2f2;
+}
+.form h4 {
+  padding: 0px 20px;
+  margin: 10px 0px;
+}
+.image {
+  background: url("https://images4.alphacoders.com/132/thumb-1920-1327987.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+input {
+  margin: 7px;
+  border: solid 1px #e5e7eb;
+  margin: 5px !important;
+  margin-left: 0px !important;
+}
+.inputs {
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 45px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  align-self: center;
+}
+.login {
+  border: none;
+  background-color: #f2f2f2;
+  color: cyan;
+}
+button {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+.btn-success {
+  margin-bottom: 13px;
+  background-color: cyan !important;
+  border: none !important;
+}
+.buttons {
+  margin-left: 20px;
+}
